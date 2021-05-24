@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "cmath": "cpp",
+    "cstdint": "cpp",
+    "type_traits": "cpp",
+    "bit": "cpp",
+    "utility": "cpp",
+    "limits": "cpp"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "msvc_dir": "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools",
+    "win_kit_dir": "C:/Program Files (x86)/Windows Kits",
+    "msvc_tool": "<msvc_dir>/VC/Tools/MSVC/14.28.29910",
+    "cl.exe": "<msvc_tool>/bin/Hostx64/x64/cl.exe",
+    "cl_env": {
+        "LIB": [
+            "<msvc_tool>/lib/x64",
+            "<msvc_tool>/atlmfc/lib/x64",
+            "<win_kit_dir>/10/Lib/10.0.18362.0/ucrt/x64",
+            "<win_kit_dir>/8.1/lib/winv6.3/um/x64"
+        ],
+        "LIBPATH": [
+            "<msvc_tool>/lib/x64",
+            "<msvc_tool>/atlmfc/lib/x64"
+        ],
+        "INCLUDE": [
+            "<msvc_tool>/include",
+            "<msvc_tool>/atlmfc/include",
+            "<win_kit_dir>/10/Include/10.0.18362.0/ucrt",
+            "<win_kit_dir>/8.1/Include/um",
+            "<win_kit_dir>/8.1/Include/shared",
+            "<win_kit_dir>/8.1/Include/winrt"
+        ]
+    }
+}
